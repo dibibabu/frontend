@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { useState } from 'react'
 import {useSelector} from 'react-redux'
 import { getAllUser } from '../../api/UserRequest'
+import { chatRequest } from '../../api/ChatRequest'
 
 const FollowersCard = () => {
 
