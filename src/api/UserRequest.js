@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = axios.({baseURL: "https://meeter.gq"})
+const API = axios.create({baseURL: "https://meeter.gq"})
 
 API.interceptors.request.use((req) => {
     if (localStorage.getItem('profile')) {
